@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/contact.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Hiring</title>
+    <link href="./Contact Us - Hiring_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Contact Us - Hiring_files/style1.css">
+</head>
+<body cz-shortcut-listen="true"><section id="form">  
+    <div class="head">
+        <div><img id="logo" src="./Contact Us - Hiring_files/logo.jpg" alt="logo"></div>
+        <div> <header><h1>Apply Now - "<span>Hiring</span>"</h1></header></div>
+        <div><img id="register" src="./Contact Us - Hiring_files/register.jpg" alt="register"></div>
+    </div>
+    <form action="mailto://zlilm@bezeqint.net" method="post" enctype="text/plain">
+        <ul>
+            <li>
+                <label for="fname">first name</label>
+                <input type="text" name="fname" required="" placeholder="enter your first name">
+            </li>
+            <li>
+                <label for="lname">last name</label>
+                <input type="text" name="lname" required="" placeholder="enter your last name">
+            </li>
+            <li>
+                <label for="email">email</label>
+                <input type="email" name="email">
+            </li>
+            <li>
+                <label for="age">age</label>
+                <input type="number" max="130" min="2" name="age">
+            </li>
+            <li>
+                <label for="phone number">phone number:</label>
+                <input type="tel" pattern="[0-9]{3}-[0-9]{7}" name="phone number" required="">
+            </li>
+            <h3>select personal traits that describe you the best (you can choose more than one personal trait)</h3>
+            <li>
+                <input type="checkbox" name="Humble">
+                <label for="Humble">Humble</label><br> </li>
+                <li><input type="checkbox" name="Reliable">
+                <label for="Reliable">Reliable</label><br></li>
+               <li> <input type="checkbox" name="Confident">
+                <label for="Confident">Confident</label></li>
+               <li> <input type="checkbox" name="Imaginative">
+                <label for="Imaginative">Imaginative</label></li>
+               <li> <input type="checkbox" name="Capable">
+                <label for="Capable">Capable</label>
+            </li>
+
+            <li><input type="checkbox" name="Arrogant">
+                <label for="Arrogant">Arrogant</label><br></li>
+                <li><input type="checkbox" name="Rude">
+                <label for="Rude">Rude</label><br></li>
+                <li><input type="checkbox" name="Sneaky">
+                <label for="Sneaky">Sneaky</label><br></li>
+              <li><input type="checkbox" name="Impulsive">
+              <label for="Impulsive">Impulsive</label><br></li>
+                 <li><input type="checkbox" name="Lazy">
+                <label for="Lazy">Lazy</label><br></li>
+            
+                
+                <h3>select your preferred job area</h3>
+                <li>
+                <input type="radio" name="job area" value="Human Services">
+                <label for="Human Services">Human Services</label><br></li>
+               <li> <input type="radio" name="job area" value="Manufacturing">
+                <label for="Manufacturing">Manufacturing</label><br></li>
+               <li> <input type="radio" name="job area" value="Health Care">
+                <label for="Health Care">Health Care</label><br></li>
+               <li> <input type="radio" name="job area" value="Finance">
+                <label for="Finance">Finance</label><br></li>
+               <li> <input type="radio" name="job area" value="Education">
+                <label for="Education">Education</label><br></li>
+                
+                <h3>select your work experience in years</h3>
+               <li>    
+                <select name="work experience" id="">
+                    <option value="none">--</option>
+                    <option value="0-3 years">0-3 years</option>
+                    <option value="3-6 years">3-6 years</option>
+                    <option value="over 6 years">over 6 years</option>
+                </select>
+            </li>
+            <li>
+                <label for="former jobs"><h3>List your previous jobs</h3></label>
+                
+                 <textarea id="former jobs" name="former jobs" rows="4" cols="50"></textarea>
+            </li>
+            <li>
+               <label for="date of birth"><h3>date of birth</h3></label>
+                <input type="date" name="date of birth">
+            </li>
+            <li>
+                <input id="submit" type="submit" value="submit">
+            </li>
+            <li>
+                <input type="reset" value="reset">
+            </li>
+        </ul>
+    </form>
+</section>
+<div class="nav_contact">
+    <div style="text-align: center;"> <a href="http://127.0.0.1:5500/index.html">Main Page</a></div>
+    <div style="text-align: center;"> <a href="http://127.0.0.1:5500/about.html">About</a></div>
+    <div style="text-align: center;"> <a href="http://127.0.0.1:5500/information.html">Information</a></div>
+    <div style="text-align: center;"> <a href="http://127.0.0.1:5500/contact.html">Contact Us</a></div>
+</div>
+   
+<div class="copyright_contact">
+    <div style="text-align: center;"> <a href="http://127.0.0.1:5500/contact.html#top"> [Back to Top]</a><p></p></div>
+    <p style="text-align: center;">© This website was created by Shir Mana </p>
+</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
